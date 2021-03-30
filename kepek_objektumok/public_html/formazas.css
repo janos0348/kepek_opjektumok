@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+ 
+
+main {max-width:800px;}
+
+ 
+
+article img {
+    width:100%;
+    border-radius:5px;
+}
+
+ 
+
+article {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap:10px;
+}
+
+ 
+section img{
+    width: 100%;
+}
+section {
+    display: grid;
+    grid-template-columns:50px 1fr 50px;
+    align-items:center;
+}
+.keptarolo {
+    border:1px solid gray;
+    border-radius:5px;
+    padding:2px;
+    position: relative;
+}
+.keptarolo h2{
+    position: absolute;
+    top:50px;
+}
+.keptaroloAktiv {
+    background: #ffcccc;    
+}
